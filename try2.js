@@ -4,6 +4,6 @@ function edit(data, status){
   var c = data+status;
 };
 edit(g,b);
-//hedw
+//hedws
 //dsv
 43t
