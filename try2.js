@@ -3,8 +3,8 @@ var b = 43;
 function edit(data, status){
   var c = data+status;
 };d
-edit(g,b);
+edit(g,b)
 //hedws
-//dsvcc
+//dsvccc
 43tf
 ss
