@@ -4,7 +4,7 @@ function edit(data, status){
   var c = data+status;
 };d
 edit(g,b)
-//hedws
+//hedw
 //dsvccc
 43tf
 ss
