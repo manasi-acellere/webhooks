@@ -3,8 +3,5 @@ var b = 43;
 function edit(data, status){
   var c = data+status;
 };cdcshg
-edit(g,b)ert
-//dsv
-//ds]hg
-asd
-ssdsvf
+edit(g,b)
+var a;
