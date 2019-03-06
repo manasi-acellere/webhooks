@@ -4,4 +4,4 @@ function edit(data, status){
   var c = data+status;
 };
 edit(g,b)
-var a;
+var abc;
