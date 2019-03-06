@@ -5,4 +5,4 @@ function edit(data, status){
 };
 edit(g,b)
 var abc;c
-  sd csch
+  sd csch;k
