@@ -4,7 +4,6 @@ function edit(data, status){
   var c = data+status;
 };cdcshg
 edit(g,b)ert
-/
 //dsvc
 //ds]h
 asd
