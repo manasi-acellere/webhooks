@@ -3,7 +3,7 @@ var b = 43;
 function edit(data, status){
   var c = data+status;
 };cdcs
-edit(g,b)ertf
+edit(g,b)ert
 //
 //dsvchscdd
 //ds]h
