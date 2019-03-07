@@ -37,6 +37,7 @@ export function pickRepoFromPRQueue(req) {
                         let payloadPrimaryData = queueData[0].primary_data;
                         var params = {
                             'tenant_uid': queueData[0].tenant_uid,
+                            'subsystem_uid': queueData[0].repository_uid,
                             'subsystem_uid': queueData[0].repository_uid
                         };
                         let payloadData = {
@@ -52,6 +53,7 @@ export function pickRepoFromPRQueue(req) {
                         req.body.payloadData = payloadData;
                         updateScanStatusToRemote(queueData[0].session_id, queueData[0].review_request_id, queueData[0].repository_uid, 'INPROGRESS');
                         sendPRScanRequest(req);
+                        debugger;
                     }
                 });
             }
