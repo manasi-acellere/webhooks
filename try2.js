@@ -3,6 +3,6 @@ var b = 43;
 function edit(data, status){
   var c = data+status;
 };
-edit(g,b)s
+edit(g,b)
 var abc;
 
