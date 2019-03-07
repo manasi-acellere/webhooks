@@ -30,6 +30,7 @@ export function pickRepoFromPRQueue(req) {
                 return db.gammaDbPool.query(sqlQuery, [])
                 .then(queueData=>{
                     if(queueData.length) {
+                        let a;
                         req.body.scanId = queueData[0].session_id;
                         req.body.repositoryId = queueData[0].repository_id;
                         req.params.repositoryUid = queueData[0].repository_uid;
