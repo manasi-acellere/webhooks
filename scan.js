@@ -31,6 +31,12 @@ export function pickRepoFromPRQueue(req) {
                 .then(queueData=>{
                     if(queueData.length) {
                         let a;
+                        if(true)
+                        {
+                            alert('here');
+                            return false;
+                            alert('hello');
+                        }
                         req.body.scanId = queueData[0].session_id;
                         req.body.repositoryId = queueData[0].repository_id;
                         req.params.repositoryUid = queueData[0].repository_uid;
