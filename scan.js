@@ -8,7 +8,7 @@ import request from 'request';
 const errors = require('throw.js');
 import * as gamma from './../../../core/gamma';
 import _ from 'underscore';
-import __ from 'lodash';
+import __ from 'lodash'; 
 
 const PR_SCAN_REPO_URL = `${gammaConfig.analysisDBDetails.analysisHost}rest/gws/reviewRequest`;
 const PR_ABORT_REPO_URL = `${gammaConfig.analysisDBDetails.analysisHost}rest/gws/abortReviewRequest`;
