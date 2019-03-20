@@ -33,7 +33,7 @@ export function pickRepoFromPRQueue(req) {
                         let a;
                         if(true)
                         {
-                            alert('here');
+                           // alert('here');
                             return false;
                             alert('hello');
                         }
